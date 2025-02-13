@@ -15,7 +15,7 @@ In those folders, each .paa file is a map tile. The files that start with an "S"
 *But the .paa format isn't helpful for our purposes. We need to convert .paa to .png in bulk since there are a ton of them (32`*`32 = 1,024 tiles)*
 
 ## Convert the .paa map tiles to .png
-Luckily this is possible with a tool included in DayZ tools called ImagetoPAA. Despite the name, it can also convert the other direction from .paa to .png.
+Luckily this is possible with a tool included in DayZ tools called ImagetoPAA. Despite the name, it can also convert the other direction from .paa to .png. I assume you have DayZ Tools installed since you have a P: drive. If not, install DayZ Tools using Steam.
 
 Find the ImagetoPAA executable on your computer. For me it was located here:
 
