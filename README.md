@@ -10,7 +10,7 @@ The map is divided into tiles in the game files. They are located in the followi
 - **Livonia**: `P:\DZ\worlds\enoch\data\layers`
 - **Sakhal**: `P:\sakhal\Addons\worlds_sakhal_data\DZ\worlds\sakhal\data\layers`
 
-In those folders, each .paa file is a map tile. The files that start with an "S", for example, "S_000_000_lco.paa" are sat map tiles. The files that start with "M" are mask tiles (which we won't discuss here but you can follow the same process if you want the mask map). The map is divided into a 32x32 grid and the numbers in the file names are that tile's place on the grid. So S_000_000_lco.paa is row 0, column 0. S_000_001_lco.paa is row 0, column 1, for example. 
+In those folders, each .paa file is a map tile. The files that start with an "S", for example, `S_000_000_lco.paa` are sat map tiles. The files that start with "M" are mask tiles (which we won't discuss here but you can follow the same process if you want the mask map). The map is divided into a 32x32 grid and the numbers in the file names are that tile's place on the grid. So `S_000_000_lco.paa` is row 0, column 0. `S_000_001_lco.paa` is row 0, column 1, for example. 
 
 *But the .paa format isn't helpful for our purposes. We need to convert .paa to .png in bulk since there are a ton of them (32`*`32 = 1,024 tiles)*
 
