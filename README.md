@@ -2,6 +2,8 @@
 
 This explains step-by-step how to create a high-resolution satellite map from the DayZ game files. If you need help or have any questions, feel free to ask in [Discord](https://discord.com/invite/676ASkJpa5).
 
+[This](https://github.com/pennyworth12345/A3_MMSI/wiki/Mapframe-Information) is a good resource explaning map grid sizes, etc. Put here if you want to learn more. 
+
 ## Find all of the satellite map tiles in the game files
 This assumes you have your P: drive set up. If you don't, see [here](https://community.bistudio.com/wiki/DayZ:Modding_Basics#:~:text=on%20its%20track.-,Setting%20up%20the%20Project%20Drive,-Create%20a%20Project). 
 
