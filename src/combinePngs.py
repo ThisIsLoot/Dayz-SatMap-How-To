@@ -13,7 +13,7 @@ output_image_path = r"C:\Users\[YOU]\Desktop\test\chernarusplus_sat_map_final.pn
 grid_size = 32  # Number of rows and columns
 
 # Image filename pattern to extract row and column numbers
-# Change the "S" to "M" if you are doing the mask tiles
+# Change the "S" to "m" if you are doing the mask tiles. You also need to change 'lco' to 'lca'
 pattern = re.compile(r"S_(\d{3})_(\d{3})_lco\.png", re.IGNORECASE)
 
 # Dictionary to store cropped images by position
