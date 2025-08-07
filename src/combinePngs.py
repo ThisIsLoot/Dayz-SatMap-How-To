@@ -10,7 +10,7 @@ print("Combining .pngs..")
 #! Define the folder containing .png files and output path
 input_folder = r"C:\Users\[YOU]\Desktop\test\satTiles\chernarusplus" # TODO change to your username or it won't work, or define a different path
 output_image_path = r"C:\Users\[YOU]\Desktop\test\chernarusplus_sat_map_final.png" # TODO change to your username or it won't work, or define a different path
-grid_size = 32  # Number of rows and columns
+grid_size = 32  # Number of rows and columns. Note: For Deer Isle change this to 43. 
 
 # Image filename pattern to extract row and column numbers
 # Change the "S" to "m" if you are doing the mask tiles. You also need to change 'lco' to 'lca'
@@ -28,7 +28,7 @@ for filename in os.listdir(input_folder):
         img_path = os.path.join(input_folder, filename)
         img = Image.open(img_path)
         
-        # Crop 16 pixels from all sides of the tile
+        # Crop 16 pixels from all sides of the tile. Note: for Deer Isle, change this to crop 64 pixels instead of 16. 
         cropped_img = img.crop((16, 16, img.width - 16, img.height - 16))
         image_grid[(col, row)] = cropped_img
 
@@ -57,3 +57,4 @@ print("Creating the final image. Takes a minute...")
 # Save the combined map image
 combined_image.save(output_image_path)
 print("Combined map saved as:", output_image_path)
+
